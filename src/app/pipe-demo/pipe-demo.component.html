@@ -1,0 +1,11 @@
+<h2>Pipe được dùng để chuyển đổi dữ liệu mà bạn hiển thị lên template cho người dùng có thể hiểu được. </h2>
+<h2>Ví dụ: định dạng ngày tháng cho kiểu Date, viết hoa các chữ cái đầu tiên của tên riêng như tên người, tên thành phố,
+  etc.</h2>
+<h2> Pipe nhận một đầu vào và cho kết quả ở đầu ra.</h2>
+<p style="font-style: italic ; font-size: large ; color: blue">pipe-demo</p>
+<p>Today: {{today | date: 'fullDate'}}</p>
+<p>User Name: {{user.name | titlecase}}</p>
+<p>{{a | }}</p>
+<ul>
+  <li *ngFor="let i of collection | slice:1:6">{{ i }}</li>
+</ul>
